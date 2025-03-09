@@ -29,8 +29,8 @@ const TableRowExtendedContent = (props: UiTableRowProps) => {
             image={row.urlToImage}
             alt={row.description}
           />
-          <Box display="flex" flexDirection="column">
-            <Typography variant="body2" color="text.secondary" flex={1} mb={{ xs: 2, lg: 1 }}>
+          <Box display="flex" flexDirection="column" flex={1}>
+            <Typography variant="body2" color="text.secondary" mb={{ xs: 2, lg: 1 }}>
               {row.content}
             </Typography>
             {matches && (
