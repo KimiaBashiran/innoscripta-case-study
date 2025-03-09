@@ -1,0 +1,27 @@
+table {
+	margin-bottom: inherit;
+}
+
+table td, table th {
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+}
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+	border: none;
+}
+
+table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
+	background-color: inherit;
+}
+
+table tbody tr:hover>td, table tbody tr:hover>th {
+	background-color: inherit;
+}
+
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+	color: inherit;
+	background-color: inherit;
+	outline: inherit;
+}

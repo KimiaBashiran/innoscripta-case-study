@@ -1,0 +1,8 @@
+packages/**/build
+packages/**/dist
+packages/**/node_modules
+packages/**/.github
+packages/**/public
+packages/**/coverage
+packages/**/.next
+graphql/dist/gql/*.ts
