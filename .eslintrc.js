@@ -13,6 +13,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -29,6 +30,7 @@ module.exports = {
     'react-hooks',
     '@typescript-eslint',
     'import',
+    'jest',
   ],
   rules: {
     'react-hooks/exhaustive-deps': 'error',

@@ -12,10 +12,9 @@ import News from './routes/News';
 import theme from './theme';
 
 import 'src/react-global.css';
-import 'mapbox-gl/dist/mapbox-gl.css';
 
 const rootElement = document.getElementById('root');
-const root = ReactDOM.createRoot(rootElement!);
+export const root = ReactDOM.createRoot(rootElement!);
 
 const router = createHashRouter([{ path: '/', element: <News /> }]);
 
